@@ -1,0 +1,26 @@
+{
+  "name": "expressserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon run index.js",
+    "test": "mocha"
+  },
+  "author": "Tejasvi",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2"
+  }
+}
