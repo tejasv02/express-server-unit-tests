@@ -13,6 +13,10 @@
     "node": ">=10.1"
   },
   "dependencies": {
+    "api": "^2.6.0",
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "joi": "^17.4.0",
     "lodash": "^4.17.21",
